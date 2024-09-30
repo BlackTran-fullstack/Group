@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(2, 207, 234);
+}
+
+div#content{
+    margin-top: 5%;
+}
+
+div#content p.default_screen{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+div#content p.default_screen~p {
+    font-size: 2rem;
+}
+
+h1{
+    display: block;
+    background-color: bisque;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin-top: 0;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+body#member{
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+img#member{
+    position: fixed;
+    top: 20rem;
+    right: 10rem;
+    max-width: 45rem;
+}
+
+body#member p{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+body#member:nth-child(2){
+    margin-top: 20rem;
+    margin-left: 15rem;
+}
+
+button{
+    font-size: 2.5rem;
+}
